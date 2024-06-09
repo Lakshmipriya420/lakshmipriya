@@ -1,0 +1,9 @@
+a=int(input())
+i=1
+while(i<4):
+    b=a*0.04
+    a=b+a
+    print("Balance as of end of Year", i, end='')
+    print(": $", end='')
+    print("%.2f."%a)
+    i+=1
